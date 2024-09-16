@@ -30,7 +30,7 @@ listContainer.addEventListener("click", function(e){
 }, false);
 
 function saveList() {
-    localStorage.setIte,("list", listContainer.innerHTML);
+    localStorage.setItem("list", listContainer.innerHTML);
 }
 
 function displayList(){
